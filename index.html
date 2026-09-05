@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ever LOOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Ever LOOM</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#men">Men</a>
+      <a href="#women">Women</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+  <section class="hero" id="home">
+    <img src="https://nishatlinen.com/cdn/shop/files/unstitched-webBanners-2.jpg?v=1764762573&width=2000" class="active">
+    <img src="https://www.thefabricstore.pk/cdn/shop/files/Desktop_91c81e1a-8d1a-424c-a6e9-0aa113efd823_1800x.png?v=1766557971">
+    <img src="img2.png"> 
+  </section>
+
+  <section class="collection" id="men">
+    <h2>Men's Collection</h2>
+    <div class="products">
+
+      <div class="product">
+        <img src="https://kajols.com/cdn/shop/products/silk-black-dhoti-kurta-249258-1000x1375.jpg?v=1676659678" alt="Kurta Set">
+        <h3>Kurta Set</h3>
+        <p>PKR 6,500</p>
+        <button class="buy-btn" onclick="buyNow('Kurta Set')">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9J0kyJfoOPHZ9wBTO79wM1301_YTqLo62gg&s" alt="Waistcoat">
+        <h3>Waistcoat</h3>
+        <p>PKR 4,200</p>
+        <button class="buy-btn" onclick="buyNow('Waistcoat')">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://www.shopmanto.com/cdn/shop/files/47_7f5056e9-37f1-4717-82f4-05cfa64f336c.jpg?v=1711475852" alt="Shalwar Kameez">
+        <h3>Shalwar Kameez</h3>
+        <p>PKR 5,800</p>
+        <button class="buy-btn" onclick="buyNow('Shalwar Kameez')">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMg9yjR_8IAxD6MyMmfnY4J9Cja60yUlCK3A&s" alt="Formal Kurta">
+        <h3>Formal Kurta</h3>
+        <p>PKR 7,200</p>
+        <button class="buy-btn" onclick="buyNow('Formal Kurta')">Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="collection" id="women">
+    <h2>Women's Collection</h2>
+    <div class="products">
+
+      <div class="product">
+        <img src="https://www.amave.pk/cdn/shop/files/DSC01610.png?v=1761216500&width=600" alt="Embroidered Suit">
+        <h3>Embroidered Suit</h3>
+        <p>PKR 8,900</p>
+        <button class="buy-btn" onclick="buyNow('Embroidered Suit')">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://www.amave.pk/cdn/shop/files/DSC02063_d87be1b1-40f5-4d59-8b5d-55f5013de233.png?v=1761216546&width=600" alt="Luxury Lawn">
+        <h3>Luxury Lawn</h3>
+        <p>PKR 6,300</p>
+        <button class="buy-btn" onclick="buyNow('Luxury Lawn')">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://sowears.net/cdn/shop/files/www-sowears-net-dresses-mayday-off-white-floral-dress-39285499592912_600x.jpg?v=1697115923" alt="Chiffon Dress">
+        <h3>Chiffon Dress</h3>
+        <p>PKR 9,500</p>
+        <button class="buy-btn" onclick="buyNow('Chiffon Dress')">Buy Now</button>
+      </div>
+
+      <div class="product">
+        <img src="https://www.stitchfix.com/women/blog/wp-content/uploads/2022/21-11-05_W_OF_V09_1649_2x3-683x1024.jpeg" alt="Formal Wear">
+        <h3>Formal Wear</h3>
+        <p>PKR 11,000</p>
+        <button class="buy-btn" onclick="buyNow('Formal Wear')">Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="collection about-section" id="about">
+    <div class="about-box about-card">
+      <h2>About Us</h2>
+      <p class="about-text intro">
+        Ever LOOM is a premium fashion store offering elegant men’s and women’s wear.
+        Our designs blend tradition with modern style to give you confidence and class
+        in every outfit.
+      </p>
+
+      <blockquote class="about-quote quote">
+        “Fashion is the armor to survive the reality of everyday life.”
+      </blockquote>
+
+      <p class="about-signature signature">—Ever LOOM</p>
+    </div>
+  </section>
+
+  <section class="collection contact-section" id="contact">
+    <h2>Contact Us</h2>
+
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 MUAAZ | ADAM | ZAIN</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
