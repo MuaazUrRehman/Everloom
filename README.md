@@ -21,12 +21,6 @@
 
 **Ever LOOM** is a fully responsive, single-page fashion e-commerce front-end. It showcases curated men's and women's collections with a sleek black-and-white aesthetic, an auto-rotating hero slider, and a client-side contact form — all built without any frameworks or dependencies.
 
----
-
-> 💡 Tip: Drop your screenshots in an `/assets` folder and update the paths above, e.g. `![Desktop View](assets/desktop.png)`
-
----
-
 ## 🚀 Features
 
 - 🎞️ **Auto-rotating hero slider** — smooth fade transitions between banners
