@@ -23,12 +23,6 @@
 
 ---
 
-## 🖼️ Preview
-
-| Desktop | Mobile |
-|---------|--------|
-| *Add a screenshot here* | *Add a screenshot here* |
-
 > 💡 Tip: Drop your screenshots in an `/assets` folder and update the paths above, e.g. `![Desktop View](assets/desktop.png)`
 
 ---
